@@ -76,11 +76,11 @@ Make sure you have Node.js and npm installed on your machine.
 
 1.  **Clone the repo**
     ```sh
-    git clone [https://github.com/your_username/your_repository_name.git](https://github.com/your_username/your_repository_name.git)
+    git clone [https://github.com/yimsncht/cognitive-performance-system.git](https://github.com/imsncht/cognitive-performance-system.git)
     ```
 2.  **Navigate to the project directory**
     ```sh
-    cd your_repository_name
+    cd cognitive-performance-system
     ```
 3.  **Install NPM packages**
     ```sh
