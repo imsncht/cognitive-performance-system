@@ -64,7 +64,7 @@ CPS is an AI-driven productivity system that:
 ---
 
 ## 📄 License
-Distributed under the MIT License. See `LICENSE` for details.
+Distributed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 
