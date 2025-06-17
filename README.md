@@ -1,115 +1,84 @@
-# CPS: Cognitive Performance System
+# Cognitive Performance System (CPS)
 
-### A revolutionary tool for measuring and enhancing cognitive abilities through interactive, AI-driven tasks.
-
-![CPS Banner](https://placehold.co/1200x400/1e293b/ffffff?text=Cognitive%20Performance%20System&font=sans)
+A next-generation productivity and cognitive enhancement platform powered by real-time AI (Google Gemini). CPS helps users achieve their goals by generating and adapting personalized work plans based on their input and psychological state.
 
 ---
 
-CPS is a revolutionary tool that enhances cognitive performance through dynamic, AI-driven applications. It provides users with interactive tools and real-time feedback to help measure, understand, and improve cognitive functions like memory, attention, and problem-solving.
-
-## 🚀 Live Demo
-
-This is the perfect place to showcase the magic of your application. The new layout selection animation can be framed as the system preparing a cognitive task.
-
-💥 **Pro Tip:** Record a high-quality GIF of the entire process: logging in, selecting a cognitive task, the **Layout Selector Animation** kicking in as the task loads, and the final interactive task appearing.
-
-![Live Demo GIF](https://placehold.co/800x450/1e293b/475569?text=Drag%20Your%20Awesome%20Demo%20GIF%20Here!)
+## 🚀 What is CPS?
+CPS is an AI-driven productivity system that:
+- Collects your goals and current psychological state (energy, focus, stress, etc.)
+- Uses Google Gemini AI to generate a structured, actionable work plan with recommended productivity layouts (Kanban, Pomodoro, Writer, etc.)
+- Adapts your plan in real time as your state or context changes
+- Tracks your sessions and progress for ongoing improvement
 
 ---
 
 ## ✨ Key Features
-
-* **🧠 AI-Driven Cognitive Tasks:** Leverages AI to generate dynamic and challenging tasks that adapt to the user's performance level.
-* **📊 Real-time Performance Analytics:** Get immediate feedback and track your progress over time with detailed metrics.
-* **🎬 Engaging & Thematic Animations:** A custom loading animation provides a polished, high-tech feel while the system prepares your task.
-* **🔄 Real-time State Management:** The underlying state of tasks can be modified directly for robust testing and development.
-* **↩️ Undo Functionality:** Easily revert the last action during development or testing.
-* **🔐 Secure User Authentication:** Sessions are managed securely, ensuring that each user's performance data is private and protected.
-* **💨 Fast & Responsive:** Built with a modern tech stack for a smooth and seamless user experience.
+- **AI-Powered Planning:** Live integration with Google Gemini for dynamic, personalized session plans
+- **Real-Time Adaptation:** Plans and layouts update instantly as your state or context changes
+- **Multiple Productivity Layouts:** Kanban, Pomodoro, Writer, Zen Focus, and more—AI recommends the best fit for your needs
+- **Secure User Authentication:** All data is private and protected
+- **Session Tracking:** Review your progress and session history
+- **Modern, Responsive UI:** Built with React, Tailwind CSS, and Vite
 
 ---
 
-## 💡 Core Concept
-
-Understanding and improving one's cognitive health is crucial in today's demanding world. Traditional methods for cognitive assessment can be static and unengaging. CPS is built on a powerful idea: **what if you could improve your mind by playing?**
-
-By transforming cognitive training into an interactive and enjoyable experience, CPS helps users stay engaged, motivated, and consistent in their journey toward better mental performance.
-
----
-
-## 🛠️ How It Works
-
-The user experience is designed to be as simple and intuitive as possible:
-
-1.  **Authenticate:** Log in to your personal dashboard to access your profile and performance history.
-2.  **Select a Task:** Choose from a variety of cognitive games and assessments targeting different skills.
-3.  **Engage:** The system prepares the task, showing the dynamic loading animation, and presents the interactive challenge.
-4.  **Analyze Performance:** After completing the task, review your results and track your progress on your dashboard.
+## 🧠 How It Works
+1. **Log in** to your dashboard
+2. **Start a session** by entering your goal and psychological state
+3. **AI generates a plan**: CPS sends your input to Gemini, which returns a JSON plan (tasks, layout, title)
+4. **Work through your plan** in the recommended layout
+5. **Update your state** at any time—CPS adapts your plan in real time
+6. **Track your sessions** and review your progress
 
 ---
 
-## 💻 Tech Stack
+## 🛠️ Tech Stack
+| Frontend         | Backend         | AI Integration         | Database   |
+|------------------|----------------|-----------------------|------------|
+| React, Vite      | Node.js, Express| Google Gemini API     | SQL (schema.sql) |
+| Tailwind CSS     |                | @google/generative-ai |            |
 
-This project is built with a modern, robust, and scalable set of technologies.
+---
 
-| Frontend                               | State Management      | Styling                           |
-| :------------------------------------- | :-------------------- | :-------------------------------- |
-| **React** (UI Library)                 | **React Context** | **Tailwind CSS** (Utility-First)  |
-| **Vite** (Build Tool)                  |                       |                                   |
+## ⚡ Example Data Flow
+1. User submits goal and state →
+2. Frontend sends data to `/api/generate-ui` →
+3. Backend generates prompt and calls Gemini →
+4. Gemini returns a structured plan →
+5. Backend sends plan to frontend →
+6. User works through tasks/layouts →
+7. User updates state/context →
+8. Frontend sends update to `/api/update-ui` →
+9. Backend calls Gemini for an updated plan →
+10. UI updates in real time
 
 ---
 
 ## 🚀 Getting Started
-
-To get a local copy up and running, follow these simple steps.
-
-### Prerequisites
-
-Make sure you have Node.js and npm installed on your machine.
-* npm
-    ```sh
-    npm install npm@latest -g
-    ```
-
-### Installation
-
-1.  **Clone the repo**
-    ```sh
-    git clone [https://github.com/yimsncht/cognitive-performance-system.git](https://github.com/imsncht/cognitive-performance-system.git)
-    ```
-2.  **Navigate to the project directory**
-    ```sh
-    cd cognitive-performance-system
-    ```
-3.  **Install NPM packages**
-    ```sh
-    npm install
-    ```
-4.  **Set up environment variables**
-    * Create a `.env` file in the root of the project. This is where you would put API keys or other secrets.
-    ```
-    VITE_API_BASE_URL=http://localhost:3001
-    ```
-5.  **Run the development server**
-    ```sh
-    npm run dev
-    ```
-
----
-
-## 🗺️ Future Roadmap
-
-CPS is just getting started. Here are some of the features planned for the future:
-
--   [ ] **Expanded Library of Cognitive Games & Tasks:** Adding more challenges for memory, logic, spatial reasoning, etc.
--   [ ] **Advanced Biometric Integration:** Connect with devices like EEG or eye-trackers for deeper insights.
--   [ ] **Personalized Training Plans:** AI-generated schedules and task recommendations based on user goals.
--   [ ] **Long-term Performance Tracking:** In-depth analytics and visualizations to show trends over months and years.
--   [ ] **Competitive & Collaborative Modes:** Challenge friends or work together to solve problems.
+1. **Clone the repo**
+2. **Install dependencies** in both `frontend/` and `backend/`
+3. **Set up environment variables** (see `.env.example`)
+4. **Run backend and frontend dev servers**
 
 ---
 
 ## 📄 License
+Distributed under the MIT License. See `LICENSE` for details.
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+---
+
+## Screenshots & Demo
+_Add screenshots or a demo GIF here to showcase the AI-driven planning and layout switching._
+
+---
+
+## Roadmap
+- More productivity layouts
+- Deeper analytics and insights
+- Biometric device integration
+- Team/collaborative features
+
+---
+
+For more details, see the [architecture-data-flow-diagram.md](architecture-data-flow-diagram.md).
