@@ -81,4 +81,4 @@ _Add screenshots or a demo GIF here to showcase the AI-driven planning and layou
 
 ---
 
-For more details, see the [architecture-data-flow-diagram.md](architecture-data-flow-diagram.md).
+For more details, see the [architecture-and-dataflow.md](architecture-and-dataflow.md).
