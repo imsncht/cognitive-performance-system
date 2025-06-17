@@ -43,22 +43,22 @@ This document provides a comprehensive overview of the system architecture and d
 
 ```mermaid
 graph TD
-    A[User]
-    B[Frontend (React, Vite, Tailwind CSS)]
-    C[Backend (Node.js, Express)]
-    D[AI Service (aiService.js, prompts.js)]
-    E[Google Gemini API]
-    F[Database (SQL)]
+    User[User]
+    Frontend[Frontend: React, Vite, Tailwind CSS]
+    Backend[Backend: Node.js, Express]
+    AIService[AI Service: aiService.js, prompts.js]
+    Gemini[Google Gemini API]
+    Database[Database: SQL]
 
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> D
-    D --> C
-    C --> F
-    C --> B
-    B --> A
+    User --> Frontend
+    Frontend --> Backend
+    Backend --> AIService
+    AIService --> Gemini
+    Gemini --> AIService
+    AIService --> Backend
+    Backend --> Database
+    Backend --> Frontend
+    Frontend --> User
 ```
 
 ---
@@ -116,12 +116,12 @@ graph TD
 ## 4. Data Flow (Graphical)
 
 ```mermaid
-graph LR
+graph TD
     User[User]
     UI[React UI Components]
     API[Express API]
-    AIS[AI Service (aiService.js)]
-    PROMPTS[Prompt Generation (prompts.js)]
+    AIS[AI Service: aiService.js]
+    PROMPTS[Prompt Generation: prompts.js]
     GEM[Google Gemini API]
     DB[Database]
 
