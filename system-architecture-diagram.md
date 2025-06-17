@@ -48,30 +48,26 @@ This diagram provides a high-level overview of the system architecture, showing 
 
 ---
 
-## 🖼️ Graphical System Architecture (Mermaid)
-
-> Copy and paste the following into any Markdown file or GitHub README to view the diagram:
+## Graphical System Architecture (Mermaid)
 
 ```mermaid
 graph TD
-  User[User]
-  Frontend[Frontend (React, Vite, Tailwind CSS)]
-  Backend[Backend (Node.js, Express)]
-  AIService[AI Service (aiService.js, prompts.js)]
-  Database[SQL Database]
-  Gemini[Google Gemini API]
+    A[User]
+    B[Frontend (React, Vite, Tailwind CSS)]
+    C[Backend (Node.js, Express)]
+    D[AI Service (aiService.js, prompts.js)]
+    E[Google Gemini API]
+    F[Database (SQL)]
 
-  User -->|Uses UI| Frontend
-  Frontend -->|REST API Calls| Backend
-  Backend -->|Generate/Adapt Plan| AIService
-  AIService -->|Send Prompt| Gemini
-  Gemini -->|JSON Plan| AIService
-  AIService -->|Return Plan| Backend
-  Backend -->|Store/Retrieve Data| Database
-  Backend -->|Send Plan/Session Data| Frontend
-  Frontend -->|Display Plan/Layouts| User
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> D
+    D --> C
+    C --> F
+    C --> B
+    B --> A
 ```
 
 ---
-
-This diagram is GitHub-compatible and can be viewed directly in Markdown files on GitHub.
