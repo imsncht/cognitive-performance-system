@@ -45,3 +45,33 @@ User → React App → Express API → AI Service → Gemini API → AI Service 
 ---
 
 This diagram provides a high-level overview of the system architecture, showing how the frontend, backend, AI service, and database interact.
+
+---
+
+## 🖼️ Graphical System Architecture (Mermaid)
+
+> Copy and paste the following into any Markdown file or GitHub README to view the diagram:
+
+```mermaid
+graph TD
+  User[User]
+  Frontend[Frontend (React, Vite, Tailwind CSS)]
+  Backend[Backend (Node.js, Express)]
+  AIService[AI Service (aiService.js, prompts.js)]
+  Database[SQL Database]
+  Gemini[Google Gemini API]
+
+  User -->|Uses UI| Frontend
+  Frontend -->|REST API Calls| Backend
+  Backend -->|Generate/Adapt Plan| AIService
+  AIService -->|Send Prompt| Gemini
+  Gemini -->|JSON Plan| AIService
+  AIService -->|Return Plan| Backend
+  Backend -->|Store/Retrieve Data| Database
+  Backend -->|Send Plan/Session Data| Frontend
+  Frontend -->|Display Plan/Layouts| User
+```
+
+---
+
+This diagram is GitHub-compatible and can be viewed directly in Markdown files on GitHub.
