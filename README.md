@@ -1,9 +1,5 @@
 # Cognitive Performance System (CPS)
 
-![CPS Banner](https://placehold.co/1200x400/1e293b/ffffff?text=Cognitive%20Performance%20System%0AAI-Powered%20Productivity%20%26%20Cognitive%20Enhancement&font=sans)
-
----
-
 CPS is an AI-powered productivity and cognitive enhancement platform. It generates and adapts personalized work plans in real time, using Google Gemini AI, based on your goals and psychological state.
 
 ---
