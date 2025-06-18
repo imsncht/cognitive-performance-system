@@ -8,8 +8,6 @@ CPS is an AI-powered productivity and cognitive enhancement platform. It generat
 
 ![Live Demo GIF](https://placehold.co/800x450/1e293b/475569?text=Demo%20AI-Driven%20Planning%20%26%20Layout%20Switching)
 
-> **Pro Tip:** Add a GIF showing login, goal input, AI plan generation, and dynamic layout switching for maximum impact.
-
 ---
 
 ## ✨ Key Features
