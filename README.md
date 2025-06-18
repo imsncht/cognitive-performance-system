@@ -4,24 +4,24 @@ CPS is an AI-powered productivity and cognitive enhancement platform. It generat
 
 ---
 
-## 🚀 Live Demo
+## Demo
 
 ![Live Demo GIF](https://placehold.co/800x450/1e293b/475569?text=Demo%20AI-Driven%20Planning%20%26%20Layout%20Switching)
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-- **🤖 AI-Powered Planning:** Live integration with Google Gemini for dynamic, personalized session plans
-- **🔄 Real-Time Adaptation:** Plans and layouts update instantly as your state or context changes
-- **🗂️ Multiple Productivity Layouts:** Kanban, Pomodoro, Writer, Zen Focus, and more—AI recommends the best fit for your needs
-- **🔐 Secure User Authentication:** All data is private and protected
-- **📈 Session Tracking:** Review your progress and session history
-- **⚡ Modern, Responsive UI:** Built with React, Tailwind CSS, and Vite
+- **AI-Powered Planning:** Live integration with Google Gemini for dynamic, personalized session plans
+- **Real-Time Adaptation:** Plans and layouts update instantly as your state or context changes
+- **Multiple Productivity Layouts:** Kanban, Pomodoro, Writer, Zen Focus, and more—AI recommends the best fit for your needs
+- **Secure User Authentication:** All data is private and protected
+- **Session Tracking:** Review your progress and session history
+- **Modern, Responsive UI:** Built with React, Tailwind CSS, and Vite
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. **Log in** to your dashboard
 2. **Start a session** by entering your goal and psychological state
@@ -32,7 +32,7 @@ CPS is an AI-powered productivity and cognitive enhancement platform. It generat
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Frontend         | Backend         | AI Integration         | Database   |
 |------------------|----------------|-----------------------|------------|
@@ -41,7 +41,7 @@ CPS is an AI-powered productivity and cognitive enhancement platform. It generat
 
 ---
 
-## 📊 System Architecture
+## System Architecture
 
 ```mermaid
 graph TD
@@ -65,7 +65,7 @@ graph TD
 
 ---
 
-## 🔁 Data Flow
+## Data Flow
 
 ```mermaid
 graph TD
@@ -91,7 +91,7 @@ graph TD
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 1. **Clone the repo**
     ```sh
@@ -107,7 +107,7 @@ graph TD
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
 - More productivity layouts
 - Deeper analytics and insights
@@ -116,7 +116,7 @@ graph TD
 
 ---
 
-## 📄 License
+## License
 
 Distributed under the MIT License. See [`LICENSE`](LICENSE) for details.
 
