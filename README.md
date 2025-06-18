@@ -1,6 +1,6 @@
 # Cognitive Performance System (CPS)
 
-![CPS Banner](https://placehold.co/1200x400/1e293b/ffffff?text=Cognitive%20Performance%20System&font=sans)
+![CPS Banner](https://placehold.co/1200x400/1e293b/ffffff?text=Cognitive%20Performance%20System%0AAI-Powered%20Productivity%20%26%20Cognitive%20Enhancement&font=sans)
 
 ---
 
