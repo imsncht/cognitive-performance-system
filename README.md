@@ -10,6 +10,12 @@ CPS is an AI-powered productivity and cognitive enhancement platform. It generat
 
 ---
 
+## 📸 Layout Snapshots
+
+See [`SNAPSHOTS.md`](SNAPSHOTS.md) for visual examples of all productivity layouts and the dashboard.
+
+---
+
 ## Key Features
 
 - **AI-Powered Planning:** Live integration with Google Gemini for dynamic, personalized session plans
@@ -119,12 +125,12 @@ graph TD
 
 ---
 
-## License
-
-Distributed under the MIT License. See [`LICENSE`](LICENSE) for details.
-
----
-
 ## Test Prompts for Layouts
 
 See [`test-prompts.md`](test-prompts.md) for a collection of example user prompts you can use to trigger and test different productivity layouts in the system.
+
+---
+
+## License
+
+Distributed under the MIT License. See [`LICENSE`](LICENSE) for details.
