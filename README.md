@@ -88,6 +88,9 @@ graph TD
     UI -->|Render| User
     API --> DB
 ```
+---
+
+> For a detailed architecture and data flow, see [`architecture-and-dataflow.md`](architecture-and-dataflow.md).
 
 ---
 
@@ -119,10 +122,6 @@ graph TD
 ## License
 
 Distributed under the MIT License. See [`LICENSE`](LICENSE) for details.
-
----
-
-> For a detailed architecture and data flow, see [`architecture-and-dataflow.md`](architecture-and-dataflow.md).
 
 ---
 
