@@ -62,4 +62,16 @@ Here are example prompts you can use to test and trigger different productivity 
 
 ---
 
+## Forcing a Layout
+
+If you explicitly ask for a specific layout in your prompt (e.g., "Give me the Kanban layout" or "I want the Pomodoro layout"), the AI will directly provide that layout, regardless of your goal or psychological state. This is useful for testing, but may bypass the system's adaptive logic.
+
+**Example:**
+- "I want the Kanban layout."
+- "Give me the ZenFocusLayout."
+
+Use this to quickly preview or test any layout on demand.
+
+---
+
 You can use these prompts as user input to see how your system and the AI recommend different layouts!
